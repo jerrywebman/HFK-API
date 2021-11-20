@@ -1,3 +1,5 @@
+// contains all donations functions like create, update request donation etc
+
 var DonationRequest = require("../models/DonationRequest");
 
 var functions = {

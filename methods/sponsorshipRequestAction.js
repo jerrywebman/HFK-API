@@ -1,3 +1,5 @@
+// contains all sponsorship request functions
+
 var SponsorshipRequest = require("../models/SponsorshipRequest");
 
 var functions = {

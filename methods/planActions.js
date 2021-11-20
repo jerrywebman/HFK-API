@@ -1,3 +1,5 @@
+// contains all business plan functions like create, update, delete business plans that parent/child subscribes to
+
 var Plan = require("../models/Plan");
 
 var functions = {

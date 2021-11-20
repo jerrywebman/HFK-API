@@ -1,14 +1,14 @@
 {
-  "name": "appauth",
-  "version": "1.0.0",
-  "description": "",
+  "name": "high-flying-kids",
+  "version": "1.0.1",
+  "description": "EDUCATION FINANCING MADE EASY",
   "main": "server.js",
+  "author": "Jerry Ifeanyi, Jerrywebman | jeriezo",
   "scripts": {
     "start": "cross-env NODE_ENV=production node server",
     "dev": "cross-env NODE_ENV=development nodemon server"
   },
   "keywords": [],
-  "author": "jerrywebman",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.0.1",

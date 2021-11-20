@@ -1,3 +1,5 @@
+// contains all withdrawals request functions
+
 var Withdrawal = require("../models/Withdrawal");
 var Money = require("../models/money");
 

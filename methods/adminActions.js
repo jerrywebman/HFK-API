@@ -1,3 +1,4 @@
+// contains all admin functions from the admin dashboard
 var User = require("../models/user");
 var Withdrawal = require("../models/Withdrawal");
 var Transaction = require("../models/Transaction");

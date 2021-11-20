@@ -1,3 +1,5 @@
+// contains all inApp notification functions like create, update, delete notification etc
+
 var Notification = require("../models/Notification");
 
 var functions = {

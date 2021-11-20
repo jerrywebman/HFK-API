@@ -1,3 +1,5 @@
+// contains all money functions like getbalance, credit, debit user etc
+
 var Money = require("../models/money");
 var Transaction = require("../models/Transaction");
 

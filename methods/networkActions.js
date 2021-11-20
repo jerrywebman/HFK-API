@@ -1,3 +1,5 @@
+// contains all referral functions
+
 var Network = require("../models/Network");
 
 var functions = {

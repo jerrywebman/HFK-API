@@ -1,3 +1,5 @@
+// contains all child functions that the parent profile can execute like add child etc.
+
 var Child = require("../models/Child");
 
 var functions = {

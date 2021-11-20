@@ -1,31 +1,4 @@
-// const multer = require("multer");
-// //store in app
-// const storage = multer.diskStorage({
-//   destination: function (req, file, cb) {
-//     cb(null, "./uploads/");
-//   },
-//   filename: function (req, file, cb) {
-//     cb(null, new Date().toISOString() + file.originalname);
-//   },
-// });
-// //check file type
-// const fileFilter = (req, file, cb) => {
-//   // reject a file
-//   if (file.mimetype === "image/jpeg" || file.mimetype === "image/png") {
-//     cb(null, true);
-//   } else {
-//     cb(null, false);
-//   }
-// };
-
-// //upload if size >=5mb
-// const upload = multer({
-//   storage: storage,
-//   limits: {
-//     fileSize: 1024 * 1024 * 5,
-//   },
-//   fileFilter: fileFilter,
-// });
+// contains all userplan functions which a specific user has/can subscribed to.
 
 var userPlan = require("../models/userPlan");
 

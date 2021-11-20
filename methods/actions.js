@@ -1,3 +1,4 @@
+//contains actions like signup, login, update user profile, update user password etc
 var User = require("../models/user");
 var Money = require("../models/money");
 // var UserReferral = require("../models/userReferral");
